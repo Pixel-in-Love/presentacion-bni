@@ -1,6 +1,11 @@
+import 'reveal.js/dist/reveal.css'
+// see available themes in the
+// node_modules/reveal.js/dist/theme
+//  beige, black, blood, league, moon, night, serif, simple, ...
+import 'reveal.js/dist/theme/white.css'
+// our styles to adjust the presentation
 import './style.css'
+import Reveal from 'reveal.js'
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+const deck = new Reveal()
+deck.initialize({ hash: true, slideNumber: true })

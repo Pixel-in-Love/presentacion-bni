@@ -9,5 +9,9 @@
   },
   "devDependencies": {
     "vite": "^2.8.0"
+  },
+  "dependencies": {
+    "prettier": "^2.6.1",
+    "reveal.js": "^4.3.1"
   }
 }
